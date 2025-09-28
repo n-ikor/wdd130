@@ -1,0 +1,27 @@
+
+body {
+    font-family: "Sanista", sans-serif;
+}
+
+nav {
+    background-color: #36454f;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    flex: 1 1 100%;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+
+}
