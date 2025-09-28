@@ -95,24 +95,29 @@ section {
 }
 
 /*Adventure section*/
-.image-gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Space between images */
-    margin-top: 20px; /* adds some space above the gallery */
+section {
+  text-align: center; /* center section content */
+
 }
 
-.image-item {
-    text-align: center;
-    display: grid;
+.image-gallery {
+  display: inline-block; /* keeps figures inline horizontally */
+  margin: 10px;
+  text-align: center; /* ensures caption is centered under image */
 }
 
 .image-item img {
-    display: flex;
-    width: 100%;
-    height: auto;
+  display: block; /* removes inline spacing */
+  margin: 0 auto; /* centers image inside container */
+  width: 100%; /*makes the images span 100% of the screen*/
+  padding: 1px;
 }
+
+figcaption {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
 /*Footer section*/
 footer {
     display: flex;
