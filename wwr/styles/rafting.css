@@ -19,12 +19,6 @@ header {
     color: var(--accent2-color);
 }
 
-nav a {
-    color: whitesmoke;
-    padding: 10px 10px;
-    padding-bottom: 10px;
-}
-
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -38,11 +32,6 @@ header, main, footer {
 h1, h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-.socialmedia a {
-    text-decoration: none;
-    padding: 8px;
 }
 
 /* HERO SECTION*/
@@ -96,3 +85,103 @@ section h2 {
 section p, footer p{
     padding: 10px;
 }
+
+section {
+  background: linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);
+  padding: 32px 20px;
+  border-top: 6px solid #e6f2ff;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #083145;
+}
+
+/*Adventure section*/
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between images */
+    margin-top: 20px; /* adds some space above the gallery */
+}
+
+.image-item {
+    text-align: center;
+    display: grid;
+}
+
+.image-item img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+/*Footer section*/
+footer {
+    display: flex;
+    align-items: center;        /* vertically center items */
+    justify-content: space-between; /* space between text & icons */
+    padding: 10px 20px;
+    background: antiquewhite;        /* optional background color */
+}
+
+footer p {
+    flex: 1.5;                     /* take available space */
+    text-align: center;          /* center the text */
+    margin: 0;                   /* remove default margins */
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 5px;                   /* spacing between icons */
+}
+
+/*History section*/
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* space between logo and text */
+    margin-top: 20px;
+}
+
+.history-logo img {
+    max-width: 200px; /* adjust logo size */
+    height: auto;
+}
+
+.history-text {
+    flex: 1; /* allows text to take up remaining space */
+    text-align: justify;
+}
+
+
+/*Makes the aside and main sit side by side*/
+.grid {
+    display: flex;
+    align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
+}
+    
+    nav {
+        grid-column: 2/3;
+        margin: 1rem;
+        display: flex; /*Makes the nav links display horizontally*/
+        justify-content: flex-end;
+        align-items: center;
+        gap: 100px;
+    }
+    
+    img {
+      /* width: 200px; */
+      position: relative;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    nav a {
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: whitesmoke;
+        padding: 5px 10px;
+        padding-bottom: 10px;
+    }
