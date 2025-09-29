@@ -159,10 +159,10 @@ footer .socialmedia {
 
 /*Makes the aside and main sit side by side*/
 .grid {
-    display: grid;
-    align-items: center;
-    max-width: 840px;
-    margin: 0 auto;
+      display: grid;
+      align-items: center;
+      max-width: 840px;
+      margin: 0 auto;
 }
     
     nav {
@@ -175,10 +175,9 @@ footer .socialmedia {
     }
     
     img {
-      /* width: 200px; */
-      position: relative;
-      grid-column: 1/2;
-      grid-row: 1/2;
+        position: relative;
+        grid-column: 1/2;
+        grid-row: 1/2;
     }
 
     nav a {
