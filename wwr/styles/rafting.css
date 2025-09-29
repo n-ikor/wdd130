@@ -159,7 +159,7 @@ footer .socialmedia {
 
 /*Makes the aside and main sit side by side*/
 .grid {
-    display: flex;
+    display: grid;
     align-items: center;
     max-width: 840px;
     margin: 0 auto;
