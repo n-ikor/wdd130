@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/rafting_new.css">
+</head>
+<body>
+    <header>
+        <div class="grid">
+            <img src="images/therapidssplash.jpg" alt="The Rapid Splash Logo" width="128" height="128">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+  <section class="contact-container">
+    <div class="contact-info">
+      <h1>White Water Rafting Company</h1>
+      <address>
+        <p>123 Main River Street</p>
+        <p>Kolob, California 99999</p>
+        <p><a href="tel:+19998889999">+1 999 888 9999</a></p>
+        <p><a href="mailto:info@whitewaterraft.com">info@whitewaterraft.com</a></p>
+      </address>
+    </div>
+
+    <form id="contact-form" action="/submit-contact" method="post" class="contact-form">
+      <fieldset>
+        <legend>Contact Us</legend>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+        </div>
+        <div class="form-group">
+          <label>Subject:</label>
+          <div class="radio-group">
+            <label><input type="radio" name="subject" value="general" checked> General Inquiry</label>
+            <label><input type="radio" name="subject" value="reservation"> Reservation Question</label>
+            <label><input type="radio" name="subject" value="website"> Website Suggestion</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+        </div>
+        <div class="form-group checkbox-group">
+          <label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            Please subscribe me to the monthly newsletter
+          </label>
+        </div>
+        <button type="submit" class="submit-btn">Get in Touch!</button>
+      </fieldset>
+    </form>
+
+    <div class="map-section">
+      <h2>Our Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.639043487628!2d-122.41941568468131!3d37.77492977975966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae704d4c5bf%3A0x79e1d3b4d3b4d3b4!2sMain%20River%20Street%2C%20Kolob%2C%20CA!5e0!3m2!1sen!2sus!4v1630000000000" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <h2>We Are Here to Serve You</h2>
+    <div class="team-profiles">
+      <div class="profile">
+        <img src="path/to/employee1.jpg" alt="Employee Profile 1">
+        <h3>Employee Name 1</h3>
+        <p>Guide</p>
+      </div>
+      <div class="profile">
+        <img src="path/to/employee2.jpg" alt="Employee Profile 2">
+        <h3>Employee Name 2</h3>
+        <p>Guide</p>
+      </div>
+      <div class="profile">
+        <img src="path/to/employee3.jpg" alt="Employee Profile 3">
+        <h3>Employee Name 3</h3>
+        <p>Guide</p>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
