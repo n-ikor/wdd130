@@ -227,15 +227,15 @@ p a {
 }
 
 /*THIS CENTERS 'THE RAPIDS RAFTING GROUP' AT THE TOP*/
-h1 {
-    /* top: 20px; */
-    /* width: 100%; */
-    /* padding: 16px; */
-    /* text-align: center; */
-    /* opacity: 0.7; */
-    /* background-color: var(--accent1-color); */
-    /* color: black; */
-}
+/* h1 {
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: black;
+} */
 
 
 
@@ -275,3 +275,11 @@ textarea {
     width: 100%;
     padding: .7rem;
 }
+
+/* INDEX CSS SECTION */
+
+.grids {
+      display: grid;
+      align-items: center;
+    }
+
