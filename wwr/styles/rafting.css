@@ -38,6 +38,7 @@ h1, h2{
 .hero {
     position: relative;
     width: 100%;
+    text-align: center;
 }
 
 .hero img {
@@ -49,20 +50,24 @@ h1, h2{
 .hero h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
+    width: 840px;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
 }
+.hero p {
+    /* position: absolute; */
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
 
 /* WORKING HERE*/
-/* .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-} */
 
 .contact h1 {
     position: relative;
@@ -74,7 +79,6 @@ h1, h2{
 .map-section {
     position: absolute;
 }
-
 
 .hero article {
     position: absolute;
@@ -99,6 +103,12 @@ section h2 {
     padding: 10px;
     color: whitesmoke;
     text-align: center;
+}
+/* WORKING HERE */
+aside h2 {
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: #fff;
 }
 
 section p, footer p{
@@ -278,8 +288,144 @@ textarea {
 
 /* INDEX CSS SECTION */
 
-.grids {
+.grids img {
       display: grid;
       align-items: center;
     }
 
+/* FORM CSS SECTION */
+.form-container {
+    max-width: 400px;
+    margin: 5px auto;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    /* color: white; */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    /* cursor: pointer; */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* CTA SECTION */
+/* .cta-container {
+    text-align: center;
+    padding: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+} */
+
+/* INDEX RAFT AND CTA SECTIOM */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between grid items */
+    /* padding: 20px; */
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+}
+.grid-item {
+    background-color: #eee;
+    padding: 15px;
+    text-align: center;
+}
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+.cta-button {
+    display: inline;
+    padding: 1.5rem;
+    background-color: #ff5733;
+    color: #eee;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* TRIPS SECTION */
+.grid-container {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 20px;
+    padding: 20px;
+    max-width: 840px;
+    margin: 0 auto;  /*ALIGNS ITEMS TO CENTER*/
+}
+.grid-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.cta {
+    grid-column: span 2; /* Span both columns for CTA */
+    text-align: center;
+    padding: 30px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cta img {
+    display: flex;
+}
+.trip img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+ .trip h2 {
+    margin: 10px 0;
+}
+.table-container {
+    grid-column: span 2;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: white;
+}
+td {
+    background-color: aquamarine;
+}
