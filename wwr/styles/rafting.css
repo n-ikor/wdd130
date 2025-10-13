@@ -185,7 +185,6 @@ footer .socialmedia {
     text-align: justify;
 }
 
-
 /*Makes the aside and main sit side by side*/
 .grid {
       display: grid;
@@ -235,20 +234,9 @@ p a {
     word-spacing: 5px;
     padding: 1rem;
 }
-
-/*THIS CENTERS 'THE RAPIDS RAFTING GROUP' AT THE TOP*/
-/* h1 {
-    top: 20px;
-    width: 100%;
-    padding: 16px;
+h3 {
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: black;
-} */
-
-
-
+}
 /* WORKING HERE*/
 .map-section {
     position: relative;
